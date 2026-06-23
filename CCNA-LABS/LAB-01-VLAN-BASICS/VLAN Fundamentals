@@ -1,0 +1,43 @@
+# LAB 01 — VLAN Fundamentals (Cisco Packet Tracer)
+
+## Overview
+This lab demonstrates VLAN segmentation in a small office network using Cisco switches. It includes real-world baseline device configuration, VLAN creation, and port assignment.
+
+## Objectives
+- Configure basic switch security
+- Create and name VLANs
+- Assign switch ports to VLANs
+- Disable unused ports for security
+- Verify VLAN segmentation
+
+## Topology
+1 Switch (SW1)
+3 PCs (HR, IT, Sales)
+
+## VLANs
+- VLAN 10: HR
+- VLAN 20: IT
+- VLAN 30: Sales
+
+## Key Configurations
+- Hostname setup
+- Enable secret password
+- Console and VTY access
+- Service password encryption
+- VLAN creation
+- Port assignment
+- Unused port shutdown
+
+## Verification
+- show vlan brief
+- show running-config
+- Ping tests between VLANs
+
+## Result
+Devices in different VLANs cannot communicate, confirming proper segmentation.
+
+## Skills Learned
+- VLAN configuration
+- Switch hardening basics
+- Port security fundamentals
+- Network segmentation
