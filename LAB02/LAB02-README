@@ -1,0 +1,34 @@
+# LAB 02 — VLANs and Trunking
+
+## Overview
+This lab demonstrates how VLANs operate across multiple switches using trunk links (802.1Q). It simulates a real enterprise network where departments span multiple floors.
+
+## Objectives
+- Configure VLANs on multiple switches
+- Assign access ports to VLANs
+- Configure trunk links between switches
+- Allow VLANs to pass between switches
+- Verify and test VLAN isolation
+
+## Topology
+- 2 Switches (SW1, SW2)
+- 6 PCs
+- 1 trunk link between switches
+
+## VLANs
+- VLAN 10: HR
+- VLAN 20: IT
+- VLAN 30: Sales
+
+## Key Concepts
+- Access vs Trunk ports
+- VLAN tagging (802.1Q)
+- Inter-switch VLAN communication
+
+## Verification
+- show vlan brief
+- show interfaces trunk
+- Ping tests between hosts
+
+## Result
+Same VLAN devices communicate across switches, while different VLANs remain isolated.
